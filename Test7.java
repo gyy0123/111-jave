@@ -6,10 +6,10 @@ public class Test7{
 		Scanner input =new Scanner(System.in);
 		System.out.println("Enter first integer");
 		grade = input.nextInt();
-		if (grade>100){
+		if (grade>100|grade<0){
 			System.out.println("error");
 		}  
-		if (grade<=100){
+		else{
 		switch (grade/10) {
 	    
 		case 9:
