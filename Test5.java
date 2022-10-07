@@ -9,18 +9,18 @@ public class Test5{
 		if(grade>=90 & grade<=100){
 			System.out.println("A");
 		}
-		if(grade>=80 & grade<=89){
+		else if(grade>=80 & grade<=89){
 			System.out.println("B");
 		}
-		if(grade>=70 & grade<=79){
+		else if(grade>=70 & grade<=79){
 			System.out.println("C");
 		}
-		if(grade>=60 & grade<=69){
+		else if(grade>=60 & grade<=69){
 			System.out.println("D");
 		}
-		if(grade<=59){
+		else {
 			System.out.println("E");
 		}
 
-}
+     }
 }
